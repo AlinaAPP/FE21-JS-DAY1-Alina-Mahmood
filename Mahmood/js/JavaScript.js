@@ -32,7 +32,7 @@ var moreFruits = fruits ;
 document.write("<br>")
 document.write(moreFruits);
 document.write("<br>")
-var lessfruits=fruits.pop("orange"); // removed the last one 
+fruits.pop("orange"); // removed the last one 
 document.write(fruits)
 
 // Intermediate 2.2
@@ -135,7 +135,11 @@ document.write("<br>")
 
 var Challenge2 = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up";
 document.write(Challenge2.split("$").join(" "));
+document.write("<br>")
 
+// Extra ex 1
+var Text = "Hey there, i am a javascript developer, and i live in vienna"
+document.write(Text.substring(10,38));
 
 
 
