@@ -27,9 +27,10 @@ document.write(Alpha.sort()); // sort Array elements alphabatically
 // Intermediate 2.1
 
 var fruits = ["apple"," banana","kiwi"] // main Array
-var moreFruits = fruits.push("orange") // added another fruit at the end
+fruits.push("orange") // added another fruit at the end
+var moreFruits = fruits ;
 document.write("<br>")
-document.write(fruits);
+document.write(moreFruits);
 document.write("<br>")
 var lessfruits=fruits.pop("orange"); // removed the last one 
 document.write(fruits)
@@ -71,4 +72,36 @@ document.write(fruitList[6])
 document.write("<br>")
 document.write(fruitList[7])
 document.write("<br>")
+
+
+// Advanced 1.1
+
+var a = 7;
+var b = 14;
+var c = Number("21"); // converting String to a Number 
+var d = Number('36'); // converting String to a Number 
+var e = 42;
+var sum = a + b + c + d + e ;
+document.write("The sum is " +sum);
+document.write("<br>")
+
+var f = Number('1');// converting String to a Number
+var g = 15;
+var h = 8;
+var i = Number("1");// converting String to a Number
+var multiplication = (f * g * h * i );
+document.write("Multiplication result is " +multiplication);
+document.write("<br>")
+
+var division = multiplication / sum ;
+var Result = division;
+document.write("The Result is " +Result);
+document.write("<br>")
+
+
+
+
+
+
+
 
