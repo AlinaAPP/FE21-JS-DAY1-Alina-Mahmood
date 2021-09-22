@@ -32,3 +32,18 @@ document.write("<hr>");
 
 var moreAnimals = animals.unshift("cat");
 document.write(animals);
+document.write("<hr>");
+
+/* ex 3  */
+
+var fruits = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+var fruitsArray = fruits.split("/");
+document.write ("ex3: this is an array: ", fruitsArray);
+document.write("<br>");
+document.write("<br>");
+
+
+for (var i=0; i<fruitsArray.length; i++) {
+    document.write(fruitsArray[i], "<br>");
+    console.log(fruitsArray[i]);
+}
