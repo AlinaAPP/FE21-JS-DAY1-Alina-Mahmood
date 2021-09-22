@@ -35,15 +35,6 @@ document.write("<br>")
 var lessfruits=fruits.pop("orange"); // removed the last one 
 document.write(fruits)
 
-// var moreFruits = new Array();
-// moreFruits = fruits.push("orange");
-// document.write(moreFruits); // added another one at the end
-
-// var lessFruits = new Array();
-// lessFruits = moreFruits.pop("orange");
-// document.write(lessFruits);
-
-
 // Intermediate 2.2
 document.write("<br>")
 var animals = ["monkey", "horse", "dog"]
@@ -101,7 +92,7 @@ document.write("<br>")
 
 // Advanced 2
 
-var a = [[1, 2, 1, 24],
+var L = [[1, 2, 1, 24],
     [8, 11, 9, 4],
     [7, 0, 7, 27],
     [7, 4, 28, 14],
@@ -109,16 +100,41 @@ var a = [[1, 2, 1, 24],
     [21, 4, 6, 17],
     [3, 5, 26, 3]]
 
-    console.log(a[1][1]);
-    console.log(a[4][2]);
-    console.log(a[5][3]);
-    console.log(a[2][3]);
-    console.log(a[2][1]);
+    console.log(L[1][1]);
+    console.log(L[4][2]);
+    console.log(L[5][3]);
+    console.log(L[2][3]);
+    console.log(L[2][1]);
+
+
+
+    // Challenge 1 
+    
+    var cityArray= [["Vienna"],
+                    ["is"],
+                    ["a"],
+                    ["nice"],
+                    ["city"]];
+
+document.write(cityArray[0][0]);
+document.write("<br>")
+document.write(cityArray[1][0]);
+document.write("<br>")
+document.write(cityArray[2][0]);
+document.write("<br>")
+document.write(cityArray[3][0]);
+document.write("<br>")
+document.write(cityArray[4][0]);
+document.write("<br>")
+
+
     
 
 
+// Challenge 2 
 
-
+var Challenge2 = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up";
+document.write(Challenge2.split("$").join(" "));
 
 
 
