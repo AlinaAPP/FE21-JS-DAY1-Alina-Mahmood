@@ -1,4 +1,3 @@
-var a = " Hello from the console "
+var a = "Hi my name is Martin"
 console.log(a)
-var b =" Hello from the Browser"
-document.write(b)
+document.write(a) //to show the result on Html
